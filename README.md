@@ -22,7 +22,14 @@ To run a Next.js project that you've cloned from a GitHub repository, you'll typ
     npm install
     ```
 
-4. **Run the Development Server:** Next.js comes with a built-in development server that you can start with:
+4. **Setup Database**
+   
+   go to [mongodb atlas](https://www.mongodb.com/atlas)
+    and click on try free than register with your google account 
+
+    Now follow this youtube [video](https://youtu.be/PEMfsqZ2-As?t=1634) from 27:14 to 26:29 now you will get a MONGODB_URI than copy that and paste it in this [line](https://github.com/ERRORLY/VolunteerHub/blob/main/lib/mongodb.js#L3)
+
+6. **Run the Development Server:** Next.js comes with a built-in development server that you can start with:
 
     ```bash
     npm run dev
